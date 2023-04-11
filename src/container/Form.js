@@ -16,7 +16,7 @@ function Form(props) {
                                 <div className="mb-3 mx-4">
                                     <input type="text" placeholder="Name" />
                                     <input type="text" placeholder="Company" />
-                                    <input type="text" placeholder="Phone" />
+                                    <input type="number" placeholder="Phone" />
                                     <input type="text" placeholder="Email" />
 
                                 </div>
