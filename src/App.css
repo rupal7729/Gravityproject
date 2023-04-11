@@ -1,0 +1,847 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* header */
+.images img {
+  width: 328px;
+  height: 93px;
+}
+
+.getbutton button {
+  height: 67.23px;
+  width: 240px;
+  border-radius: 100px;
+
+}
+
+.icons img {
+  height: 39px;
+  width: 40px;
+  left: 1800px;
+  top: 60px;
+  border-radius: 0px;
+
+}
+
+/* banner */
+.banner {
+  background-image: url("../public/assest/image/HeroBanner.png");
+  width: 100%;
+  height: 960px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+.heading h1 {
+  font-size: 80px;
+  height: 308px;
+  width: 716px;
+  left: 90px;
+  top: 202px;
+  margin-top: 160px;
+  font-weight: 600;
+
+}
+
+.banner-text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #E2E2E2 22.69%, #A9A9A9 72.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+/* buttons */
+
+
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.getbutton-1 {
+  margin-top: 57px;
+  margin-bottom: 34px;
+}
+
+.getbutton-1 button {
+  height: 79px;
+  width: 300px;
+  left: 90px;
+  top: 551px;
+  background: #6ABD28;
+  border-radius: 100px;
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 20px;
+  border: 0;
+}
+
+.getbutton-1 button:last-child {
+  background: transparent;
+  color: #6ABD28;
+  border: 1px solid #6ABD28;
+}
+
+.main-pricing {
+  display: flex;
+  margin-top: 50px;
+}
+
+.main-pricing img {
+  height: 36px;
+  width: 39px;
+  left: 90px;
+  top: 687px;
+  border-radius: 0px;
+}
+
+.main-pricing p {
+  margin-top: 11px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+/* product-type */
+.product-type {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-weight: 700;
+}
+
+/* private-label */
+
+.private-img {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+.private-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(41, 57, 29, 0.3);
+  top: 0;
+  left: 0;
+}
+
+.private-text {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50px, -50px);
+}
+
+.private-text p {
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.private-text h2 {
+  font-size: 69px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.private-texts {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.private-texts img {
+  margin-bottom: 20px;
+}
+
+.private-texts p {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.private-texts h2 {
+  font-weight: 700;
+  font-size: 80px;
+}
+
+
+.private-texts span {
+  max-width: 83%;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 50px;
+  margin-top: 15px;
+}
+
+/* .private-icons */
+
+.private-icons {
+  display: flex;
+}
+
+
+/* cutting-edge */
+.cutting-row {
+  display: flex;
+}
+
+.cutting-box {
+  padding: 56px;
+  height: 100%;
+  width: 100%;
+  background: #6ABD28;
+}
+
+.cutting-box h2 {
+  font-size: 57px;
+  /* max-width: 238px; */
+  line-height: 79px;
+  font-weight: 700;
+}
+
+.borders {
+  border: 1px solid #fff;
+  width: 115px;
+  height: 7px;
+  background: #fff;
+  margin-top: 50px;
+}
+
+.cutting-box p {
+  margin-top: 80px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 50px;
+  line-height: 50px;
+}
+
+
+/* In-House Branding & Design */
+.branding-flex {
+  display: flex;
+}
+
+.branding-text .cutting-box {
+  background: transparent;
+  padding: 132px;
+}
+
+.branding-text .borders {
+  border: 1px solid #6ABD28;
+  background: #6ABD28;
+}
+
+.branding-text .cutting-img p {
+  font-size: 22px;
+  color: #B0B0B0;
+}
+
+/* Flexible Turnkey Solutions */
+
+.flexible-row {
+  display: flex;
+}
+
+/* get started */
+
+.get-started {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.get-text h2 {
+  font-size: 110px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.get-text p {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.get-text span {
+  font-size: 22px;
+}
+
+form {
+  margin-top: 80px;
+}
+
+.form-control {
+  border: 1px solid #000;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+form input {
+  color: #000;
+  height: 60px;
+  margin-bottom: 25px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+textarea {
+  color: #000;
+  opacity: 1;
+  width: 100%;
+  padding: 30px;
+  height: 88%;
+}
+
+.form-button button {
+  background-color: #6ABD28;
+  width: 232px;
+  height: 79px;
+  font-weight: 600;
+}
+
+.get-row {
+  display: flex;
+}
+
+
+/* footer */
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #1C1C1C;
+}
+
+footer .getbutton button {
+  font-weight: 700;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-top {
+  margin-top: 50px;
+}
+
+.footer-end {
+  margin-top: 76px;
+  text-align: end;
+}
+
+footer .getbutton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-img {
+  margin-bottom: 30px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  margin-bottom: 20px;
+}
+
+
+/* media query */
+@media (max-width:1320px) {
+
+  .images img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .banner {
+    width: 100%;
+    height: 50%;
+  }
+
+  .private-icons-2 {
+    margin-bottom: 50px;
+  }
+
+  .main-pricing {
+    display: block;
+  }
+
+
+  .getbutton-1 button {
+    height: 39px;
+    width: 150px;
+    background: #6ABD28;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .navbar>.container,
+  .navbar>.container-fluid,
+  .navbar>.container-lg,
+  .navbar>.container-md,
+  .navbar>.container-sm,
+  .navbar>.container-xl,
+  .navbar>.container-xxl {
+    flex-wrap: nowrap;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+    height: 157px;
+    max-width: 486px;
+    line-height: 51px;
+  }
+
+  .main-pricing p {
+    font-size: 11px;
+    padding-bottom: 20px;
+  }
+
+  .product-bottom {
+    margin-bottom: 42px;
+  }
+
+  .private-icons-2 p {
+    font-size: 12px
+  }
+
+  .private-icons-2 p {
+    font-size: 12px
+  }
+
+  /* .privatie-icons-2 img {
+    width: 50%;
+  } */
+
+  .product-bottom p {
+    font-size: 11px;
+  }
+
+  .cutting-box {
+    padding: 30px;
+    width: 100%;
+    height: 96%;
+  }
+
+
+  .branding-text .cutting-img p {
+    font-size: 17px;
+  }
+
+  .borders {
+    width: 55px;
+    height: 3px;
+    background: #fff;
+    margin-top: 50px;
+  }
+
+  .branding-text .cutting-box {
+    background: transparent;
+    padding: 66px;
+  }
+
+  .get-started {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .get-text h2 {
+    font-size: 56px;
+  }
+
+  .get-text p {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .get-text span {
+    font-size: 20px;
+  }
+
+
+
+  .form-button button {
+    width: 146px;
+    height: 41px;
+    font-weight: 600;
+  }
+
+  .footer-end {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  footer .getbutton {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cutting-img img {
+    width: 100%;
+  }
+
+  form input {
+    height: 35px;
+    font-size: 11px;
+  }
+
+  textarea {
+    height: 100%;
+    padding: 20px;
+    font-size: 11px;
+  }
+
+  .getbutton button {
+    height: 52.23px;
+    width: 195px;
+    border-radius: 100px;
+    font-size: 14px;
+  }
+
+  footer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .footer-logo img {
+    width: 41%;
+  }
+
+  .footer-text a {
+    font-size: 10px;
+  }
+
+  .footer-end p {
+    font-size: 12px;
+  }
+
+  .footer-text img {
+    width: 13%;
+  }
+
+  .footer-img {
+    margin-bottom: 20px;
+  }
+
+  .private-texts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .private-texts img {
+    width: 10%;
+  }
+
+  .private-texts h2 {
+    font-size: 44px;
+  }
+
+  .private-texts span {
+    max-width: 94%;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .cutting-box p {
+    margin-top: 47px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    line-height: 30px;
+  }
+
+  .cutting-box h2 {
+    font-size: 37px;
+    /* max-width: 238px; */
+    line-height: 52px;
+    font-weight: 700;
+  }
+
+
+  .private-icons {
+    display: block;
+  }
+
+  .cutting-box {
+    padding: 28px;
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+@media (max-width: 767px) {
+  .private-texts span {
+    font-size: 10px;
+    line-height: 21px;
+    max-width: 94%;
+    margin-top: 0;
+  }
+
+  .private-texts {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .private-texts p {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .private-texts h2 {
+    font-size: 30px;
+  }
+
+  .cutting-row {
+    display: block;
+  }
+
+  .flexible-row {
+    display: block;
+  }
+
+
+  .branding-flex {
+    display: block;
+  }
+
+  .product-row {
+    display: block;
+  }
+
+  .get-row {
+    display: block;
+  }
+
+  .footer-logo img {
+    width: 30%;
+    margin-bottom: 15px;
+  }
+
+  .footer-text img {
+    width: 8%;
+  }
+
+  .footer-text a {
+    font-size: 15px;
+  }
+
+  .cutting-box p {
+    margin-top: 33px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 50px;
+    line-height: 25px;
+  }
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 567px) {
+  .private-texts {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+
+  .private-texts p {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .private-texts span {
+    font-size: 8px;
+    line-height: 14px;
+    max-width: 378px;
+    margin-top: 0;
+  }
+
+
+  .cutting-box h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .cutting-box {
+    padding: 35px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .cutting-box p {
+    margin-top: 33px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 50px;
+    line-height: 25px;
+  }
+
+  .private-texts img {
+    margin-bottom: 5px;
+  }
+
+  .private-texts p {
+    font-weight: 600;
+    font-size: 6px;
+  }
+
+  .private-texts img {
+    margin-bottom: 5px;
+  }
+
+  .private-texts h2 {
+    font-size: 14px;
+  }
+
+  .branding-text .cutting-box {
+    padding: 33px;
+  }
+
+  .get-text h2 {
+    font-size: 28px;
+    margin-bottom: 13px;
+  }
+
+  .get-text p {
+    font-size: 9px;
+    padding-bottom: 10px;
+    line-height: 15px;
+    margin-bottom: 10px;
+  }
+
+  .get-text span {
+    font-size: 10px;
+  }
+
+  form {
+    margin-top: 40px;
+  }
+
+  .footer-img {
+    margin-bottom: 30px;
+  }
+
+  .navbar>.container,
+  .navbar>.container-fluid,
+  .navbar>.container-lg,
+  .navbar>.container-md,
+  .navbar>.container-sm,
+  .navbar>.container-xl,
+  .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+}
+
+@media (min-width: 667px) and (max-width: 992px) {
+  .private-texts {
+    padding-top: 50px;
+    padding-bottom: 8px;
+  }
+}
+
+/* 
+@media (max-width:992px) {
+  .getbutton-1 button {
+    margin-bottom: 30px;
+  }
+
+} */
