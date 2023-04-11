@@ -5,7 +5,7 @@ function Footer(props) {
         <>
             <footer>
                 <div className='container'>
-                    <div className='row align-items-center'>
+                    <div className='row'>
                         <div className='col-md-4'>
                             <ul>
                                 <li className='pb-3'>
