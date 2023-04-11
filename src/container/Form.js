@@ -26,7 +26,7 @@ function Form(props) {
                             </div>
                         </div>
                         <div className='form-button text-center mt-5'>
-                            <button type="button" className="btn text-white rounded-pill">SEND</button>
+                            <button type="button" className="text-white rounded-pill">SEND</button>
                         </div>
                     </form>
                 </div>

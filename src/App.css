@@ -365,6 +365,7 @@ textarea {
   background-color: #6ABD28;
   width: 232px;
   height: 79px;
+  border: 0;
   font-weight: 600;
 }
 
