@@ -64,6 +64,10 @@ li {
 }
 
 
+.width-1 {
+  width: 50%;
+}
+
 /* header */
 .images img {
   width: 328px;
@@ -125,7 +129,7 @@ header .nav-btn {
 
 .header-top {
   margin-top: 15px;
-} 
+}
 
 /* banner */
 .banner {
@@ -293,6 +297,7 @@ header .nav-btn {
 
 
 /* cutting-edge */
+
 .cutting-row {
   display: flex;
 }

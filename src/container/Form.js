@@ -12,7 +12,7 @@ function Form(props) {
                     </div>
                     <form>
                         <div className='get-row'>
-                            <div className='col-md-6'>
+                            <div className='width-1'>
                                 <div className="mb-3 mx-4">
                                     <input type="text" placeholder="Name" />
                                     <input type="text" placeholder="Company" />
@@ -21,7 +21,7 @@ function Form(props) {
 
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="width-1">
                                 <textarea type="text" placeholder="About you, product, quantity..." />
                             </div>
                         </div>
