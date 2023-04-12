@@ -127,52 +127,6 @@ header .nav-btn {
   margin-top: 15px;
 } 
 
-@media (max-width:1024px) {
-  header .nav-btn {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  header nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1.5rem;
-    transition: 1s;
-    transform: translateY(-100vh);
-    z-index: 99;
-    background-color: #fff;
-  }
-
-  header .responsive_nav {
-    transform: none;
-  }
-
-  nav .nav-close-btn {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-  }
-
-  nav ul {
-    display: block;
-  }
-
-  .header-top {
-    margin-top: 30px;
-  }
-
-  nav ul li {
-    padding-bottom: 25px;
-  }
-}
-
 /* banner */
 .banner {
   background-image: url("../public/assest/image/HeroBanner.png");
@@ -512,6 +466,54 @@ footer .getbutton {
   margin-bottom: 20px;
 }
 
+
+/* header */
+
+@media (max-width:1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 99;
+    background-color: #fff;
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  .header-top {
+    margin-top: 30px;
+  }
+
+  nav ul li {
+    padding-bottom: 25px;
+  }
+}
 
 /* media query */
 @media (max-width:1320px) {
