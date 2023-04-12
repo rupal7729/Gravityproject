@@ -1,30 +1,41 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 function Header(props) {
+
+    const navRef = useRef()
+
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav")
+    }
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-light">
-                <div className="container">
-                    <div className="images">
-                        <img src='../assest/image/logo.png' className='img-fluid' />
-                    </div>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-
-                        </ul>
-                        <div className="d-flex getbutton mx-5">
-                            <button>GET A QUOTE</button>
-                        </div>
-                        <div className='icons'>
-                        <img src='../assest/image/line.png' className='img-fluid' />
-                        </div>
-                    </div>
+            <header>
+                <div className='headers-logo'>
+                    <img src='../assest/image/logo.png' className='img-fluid' />
                 </div>
-            </nav>
+                <nav ref={navRef}>
+                    <ul className='header-top'>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Brandingdesign</a></li>
+                        <li><a href="#">Cuttingoage</a></li>
+                        <li><a href="#">Flexiblesection</a></li>
+                    <div className="getbutton align-items-center">
+                        <button>GET A QUOTE</button>
+                    </div>
+                    </ul>
+                    <button className='nav-btn nav-close-btn' onClick={showNavbar}>
+                        <CloseIcon />
+                    </button>
+                </nav>
+                <button className='nav-btn' onClick={showNavbar}>
+                    <MenuIcon />
+                </button>
+            </header>
+
         </div>
+
 
     );
 }
