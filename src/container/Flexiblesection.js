@@ -4,13 +4,13 @@ function Flexiblesection(props) {
     return (
         <div>
             <section className='flexible-section w-100'>
-                <div className='flexible-row m-0'>
-                    <div className='width-1 p-0'>
+                <div className='row m-0'>
+                    <div className='col-md-6 p-0'>
                         <div className='cutting-img'>
                             <img src='../assest/image/doctorimage-2.png' className='img-fluid' />
                         </div>
                     </div>
-                    <div className='width-1 p-0'>
+                    <div className='col-md-6 p-0'>
                         <div className='cutting-box'>
                             <h2 className='text-white'>Flexible
                                 Turnkey Solutions</h2>

@@ -4,12 +4,12 @@ function Cuttingpage(props) {
     return (
         <div>
             <section className='cutting-edge'>
-                <div className='cutting-row m-0'>
-                    <div className='width-1 p-0'>
+                <div className='row m-0'>
+                    <div className='col-md-6 col-lg-6 p-0'>
                         <div className='cutting-img'>
                             <img src='../assest/image/doctorimage.png' className='img-fluid' />
                         </div></div>
-                    <div className='width-1 p-0'>
+                    <div className='col-md-6 p-0'>
                         <div className='cutting-box'>
                             <h2 className='text-white'>Cutting Edge
                                 Manufacturing

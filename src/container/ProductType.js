@@ -5,7 +5,7 @@ function ProductType(props) {
         <>
             <div className='product-type'>
                 <div className='container'>
-                    <div className='product-row product-font'>
+                    <div className='row product-font'>
                         <div className='col-md-3 d-flex product-bottom'>
                             <img src='../assest/image/Vector-1.png' className='img-fluid' />
                             <p className='mt-4 px-3'>GUMMIES</p>

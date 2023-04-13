@@ -11,8 +11,8 @@ function Form(props) {
                         <span>Please answer the following form below and we'll be in touch as soon as possible..</span>
                     </div>
                     <form>
-                        <div className='get-row'>
-                            <div className='width-1'>
+                        <div className='row'>
+                            <div className='col-md-6'>
                                 <div className="mb-3 mx-4">
                                     <input type="text" placeholder="Name" />
                                     <input type="text" placeholder="Company" />
@@ -21,7 +21,7 @@ function Form(props) {
 
                                 </div>
                             </div>
-                            <div className="width-1">
+                            <div className="col-md-6">
                                 <textarea type="text" placeholder="About you, product, quantity..." />
                             </div>
                         </div>

@@ -296,6 +296,10 @@ header .nav-btn {
   display: flex;
 }
 
+.private-icons-2 {
+  padding: 0 50px;
+}
+
 
 /* cutting-edge */
 
@@ -535,6 +539,7 @@ footer .getbutton {
 
   .private-icons-2 {
     margin-bottom: 50px;
+    padding: 0 40px;
   }
 
   .main-pricing {
@@ -596,13 +601,6 @@ footer .getbutton {
     font-size: 11px;
   }
 
-  .cutting-box {
-    padding: 30px;
-    width: 100%;
-    height: 96%;
-  }
-
-
   .branding-text .cutting-img p {
     font-size: 17px;
   }
@@ -611,7 +609,7 @@ footer .getbutton {
     width: 55px;
     height: 3px;
     background: #fff;
-    margin-top: 25px;
+    margin-top: 60px;
   }
 
   .branding-text .cutting-box {
@@ -636,8 +634,6 @@ footer .getbutton {
   .get-text span {
     font-size: 20px;
   }
-
-
 
   .form-button button {
     width: 146px;
@@ -682,12 +678,9 @@ footer .getbutton {
     padding-top: 50px;
   }
 
-  .footer-logo img {
-    width: 41%;
-  }
 
   .footer-text a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .footer-end p {
@@ -723,27 +716,60 @@ footer .getbutton {
   }
 
   .cutting-box {
-    padding: 35px;
+    padding: 63px 36px;
     width: 100%;
     height: 100%;
   }
-}
 
-@media (max-width: 992px) {
   .cutting-box p {
-    margin-top: 16px;
+    margin-top: 60px;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 50px;
+    font-size: 19px;
     line-height: 30px;
+  }
+
+}
+
+@media (max-width:1240px) {
+  .cutting-box p {
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .cutting-box {
+    padding: 50px 49px;
+    width: 100%;
+    height: 100%;
   }
 
   .cutting-box h2 {
     font-size: 37px;
-    /* max-width: 238px; */
-    line-height: 52px;
+    max-width: 527px;
+    line-height: 50px;
     font-weight: 700;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  /* .cutting-box p {
+    margin-top: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 50px;
+    line-height: 28px;
+  } */
+
+  .cutting-box {
+    padding: 72px 26px;
+    width: 100%;
+    height: 100%;
   }
 
 
@@ -751,34 +777,18 @@ footer .getbutton {
     display: block;
   }
 
-  .cutting-box {
-    padding: 26px 40px;
-    width: 100%;
-    height: 100%;
-  }
-
-  .width-1 {
-    width: 100%;
-  }
-
-  .footer-top {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
 }
 
-@media (max-width: 767px) {
+@media (min-width:767px) and (max-width:1024px) {
   .private-texts span {
-    font-size: 10px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 27px;
     max-width: 94%;
     margin-top: 0;
   }
 
   .private-texts {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 60px;
   }
 
@@ -788,7 +798,7 @@ footer .getbutton {
   }
 
   .cutting-box {
-    padding: 35px;
+    padding: 26px;
     width: 100%;
     height: 100%;
   }
@@ -797,29 +807,9 @@ footer .getbutton {
     font-size: 30px;
   }
 
-  .cutting-row {
-    display: block;
-  }
-
-  .flexible-row {
-    display: block;
-  }
-
-
-  .branding-flex {
-    display: block;
-  }
-
-  .product-row {
-    display: block;
-  }
-
-  .get-row {
-    display: block;
-  }
 
   .footer-logo img {
-    width: 30%;
+    width: 21%;
     margin-bottom: 15px;
   }
 
@@ -834,9 +824,8 @@ footer .getbutton {
   .cutting-box p {
     margin-top: 33px;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 50px;
-    line-height: 25px;
+    font-size: 13px;
+    line-height: 29px;
   }
 
 }
@@ -961,12 +950,110 @@ footer .getbutton {
     margin-top: 40px;
   }
 
+  .footer-text {
+    margin-bottom: 40px;
+  }
+
+  .form-button button {
+    width: 140px;
+    height: 49px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .footer-text img {
+    width: 5%;
+  }
+
+
+  .footer-top {
+    display: block;
+    justify-content: center;
+  }
+
+
+}
+
+@media (min-width: 567px) and (max-width: 667px) {
+  .private-texts span {
+    max-width: 94%;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: -4px;
+  }
+
+  .private-texts {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+
+  .private-texts p {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .private-texts h2 {
+    font-size: 30px;
+    margin-top: -4px;
+  }
+
+
+  .footer-top {
+    display: block;
+    justify-content: center;
+  }
+
+}
+
+@media (min-width: 467px) and (max-width: 567px) {
+  .private-texts {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .private-texts p {
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .private-texts h2 {
+    font-size: 28px;
+  }
+
+  .private-texts span {
+    font-size: 10px;
+    line-height: 14px;
+    max-width: 378px;
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 667px) and (max-width: 992px) {
   .private-texts {
-    padding-top: 50px;
-    padding-bottom: 8px;
+    padding-top: 37px;
+    padding-bottom: 70px;
+  }
+
+  .private-texts h2 {
+    font-size: 30px;
+  }
+
+  .private-texts p {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .footer-top {
+    display: block;
+    justify-content: center;
+  }
+
+  .private-texts span {
+    max-width: 79%;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
   }
 }
 
